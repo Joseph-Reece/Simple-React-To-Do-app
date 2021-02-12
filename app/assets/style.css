@@ -1,0 +1,17 @@
+/* Todo item styles */
+.task {
+  background: aliceblue;
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+  border-left: 5px solid rgba(30, 30, 33, 0.227);
+}
+
+.task.reminder {
+  border-left: 5px solid rgb(9, 97, 16);
+}
+.task h3 {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
